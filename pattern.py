@@ -45,7 +45,7 @@ for test_case in range(1,1+T):
         if (z - i) % 6 == 0:
             break
     new = new[i+1:z+1]
-
+    print(new)
     result = []
     for i in range(0,len(new),6):
         result.append(str(pattern[new[i:i+6]]))
