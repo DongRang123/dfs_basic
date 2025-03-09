@@ -24,6 +24,6 @@ for test_case in range(1,1+T):
     while length != 1:
         length = length//2
         res+=heapq[length]
- 
+    print(res)
  
     print(f'#{test_case} {res}')
