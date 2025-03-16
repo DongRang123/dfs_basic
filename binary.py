@@ -15,5 +15,5 @@ for test_case in range(1, T + 1):
     if cnt >= 12 and N != 0.0:
         res = 'overflow'
  
- 
+    print("hello")
     print(f'#{test_case} {res}')
